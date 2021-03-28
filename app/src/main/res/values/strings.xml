@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">BarnHouse</string>
     <string name="barnhouse">BarnHouse</string>
+    <string name="project">Проекты</string>
+    <string name="service">Услуги</string>
+    <string name="work">Работы</string>
+    <string name="about">О нас</string>
+    <string name="contacts">Контакты</string>
 </resources>
