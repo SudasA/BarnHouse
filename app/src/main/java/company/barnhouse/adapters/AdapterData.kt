@@ -1,12 +1,15 @@
 package company.barnhouse.adapters
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import company.barnhouse.R
 import company.barnhouse.repo.Houses
+
 
 class AdapterData : RecyclerView.Adapter<DataViewHolder>() {
 
@@ -30,9 +33,12 @@ class AdapterData : RecyclerView.Adapter<DataViewHolder>() {
 }
 
 class DataViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-    private val houseName: TextView = itemView.findViewById(R.id.house_text)
+    private var houseName: TextView = itemView.findViewById(R.id.house_text)
+    private var houseImageView: ImageView = itemView.findViewById(R.id.house_image)
+    @SuppressLint("UseCompatLoadingForDrawables")
     fun onBind(houses: Houses) {
         houseName.text = houses.houseName
+        houseImageView.setImageDrawable(itemView.context.getDrawable(houses.houseImage))
     }
 }
 

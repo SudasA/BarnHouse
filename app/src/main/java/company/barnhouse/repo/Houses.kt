@@ -1,6 +1,7 @@
 package company.barnhouse.repo
 
-data class Houses (
-    val id: Int,
-    val houseName: String
+data class Houses(
+    var id: Int,
+    var houseName: String,
+    var houseImage: Int
     )
