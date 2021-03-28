@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/project"
+        android:title="@string/project" />
+    <item
+        android:id="@+id/service"
+        android:title="@string/service" />
+    <item
+        android:id = "@+id/work"
+        android:title="@string/work" />
+    <item
+        android:id="@+id/about"
+        android:title="@string/about" />
+    <item
+        android:id="@+id/contacts"
+        android:title="@string/contacts" />
+</menu>
