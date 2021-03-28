@@ -1,6 +1,10 @@
 package company.barnhouse
 
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Button
+import android.widget.PopupMenu
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
@@ -18,6 +22,10 @@ class MainActivity : AppCompatActivity() {
                 .replace(R.id.fragment_container, FragmentMain())
                 .commit()
         }
+    }
 
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.popup_menu, menu)
+        return super.onCreateOptionsMenu(menu)
     }
 }
