@@ -6,4 +6,10 @@
     <string name="work">Работы</string>
     <string name="about">О нас</string>
     <string name="contacts">Контакты</string>
+    <string name="_375_29_631_00_01">+375(29)631-00-01</string>
+    <string name="_375_44_534_00_01">+375(44)534-00-01</string>
+    <string name="imagelogodesc">ImageLogoDesc</string>
+    <string name="calldesc">CallDesc</string>
+    <string name="Slogan">Проектирование и строительство загородных домов\nпод ключ</string>
+    <string name="todo">TODO</string>
 </resources>
